@@ -5,10 +5,15 @@
     font-family: "Reddit Sans", sans-serif;
 }
 
-.section-header, .section-intro, .section-features, .section-news,
-.section-stats, .section-footer {
+.section-header, .section-footer {
     padding-left: 350px;
     padding-right: 350px;
+}
+
+.section-intro, .section-features, .section-news,
+.section-stats {
+    padding-left: 450px;
+    padding-right: 450px;
 }
 
 .section-header {
@@ -51,22 +56,64 @@
     padding-bottom: 84px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .intro {
-    width: 480px;
+    width: 475px;
 }
 
 .section-intro h1 {
-    font-size: 64px;
-    font-weight: bolder;
-    width: 400px;
+    font-size: 72px;
+    font-weight: 800;
+    width: 450px;
+    line-height: 72px;
 }
 
 .section-intro p {
     margin-top: 32px;
-    font-weight: 400;
+    font-weight: 450;
     font-size: 20px;
     line-height: 28px;
+}
+
+.section-features {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-desc {
+    width: 400px;
+}
+
+.feature h3 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.feature p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.feature button {
+    border-radius: 24px;
+    background-color: rgba(255, 69, 0, 1);
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 14px;
+    font-weight: 700;
 }
