@@ -17,6 +17,10 @@
 }
 
 .section-header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 0 12px 0 lightgray;
     display: flex;
     justify-content: space-between;
     align-items: center;
