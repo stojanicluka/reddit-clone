@@ -39,8 +39,34 @@
     color: white;
     border: none;
     border-radius: 20px;
-    background-color: #FF2C00;
+    background-color: rgba(255, 69, 0, 1);
     font-size: 20px;
     font-weight: 800;
     padding: 6px 26px;
+}
+
+.section-intro {
+    background-color: rgba(255, 69, 0, 1);
+    padding-top: 84px;
+    padding-bottom: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.intro {
+    width: 480px;
+}
+
+.section-intro h1 {
+    font-size: 64px;
+    font-weight: bolder;
+    width: 400px;
+}
+
+.section-intro p {
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
 }
