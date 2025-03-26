@@ -68,9 +68,10 @@
 }
 
 .section-intro h1 {
-    font-size: 72px;
+    font-size: 68px;
     font-weight: 800;
     width: 450px;
+    font-family: "Reddit Sans Chocolate", "Reddit Sans", sans-serif;
     line-height: 72px;
 }
 
@@ -159,6 +160,7 @@
 .section-stats h2 {
     font-size: 48px;
     font-weight: 800;
+    font-family: "Reddit Sans Chocolate", "Reddit Sans", sans-serif;
 }
 
 .stats-desc {
@@ -212,6 +214,7 @@
 .section-news h2 {
     font-size: 48px;
     font-weight: 800;
+    font-family: "Reddit Sans Chocolate", "Reddit Sans", sans-serif;
 }
 
 .news-title {
